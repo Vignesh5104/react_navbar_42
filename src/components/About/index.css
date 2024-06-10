@@ -1,0 +1,64 @@
+.main-about-container {
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 87vh;
+  padding: 20px;
+}
+
+.about-card-container {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  padding: 10px;
+}
+
+.about-logo-image {
+  width: 90%;
+  max-width: 140px;
+  padding-top: 10px;
+}
+
+.about-heading {
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.dark-color {
+  color: white;
+}
+.light-color {
+  color: black;
+}
+
+.bg-dark {
+  background-color: black;
+  box-shadow: 1px 3px 7px 1px white;
+}
+
+.bg-light {
+  background-color: white;
+  box-shadow: 1px 3px 7px 1px black;
+}
+
+.dark-card {
+  background-color: black;
+  box-shadow: 1px 3px 7px 1px white;
+  border-radius: 10px;
+}
+
+.light-card {
+  background-color: white;
+  box-shadow: 1px 3px 7px 1px black;
+  border-radius: 10px;
+}
